@@ -22,3 +22,6 @@ steps:
     GdnBreakAllTools: false
     GdnBreakGdnToolPoliCheck: true
     GdnBreakGdnToolPoliCheckSeverity: Warning
+    
+- task: amondnet/vercel-action@v25.2.0 
+  displayName: 'Vercel Action'
